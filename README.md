@@ -47,9 +47,15 @@ creation of QR codes.</p>
 
 ![image](https://github.com/user-attachments/assets/d22611f0-8e74-4bd0-978c-0f51294ea01f)
 
+*Figure 2: QRCodes (Simple Color)* 
+
 ![image](https://github.com/user-attachments/assets/9779b51c-9529-40c1-9f06-2d92c908dbae)
 
+*Figure 3: QRCodes (Logo)* 
+
 ![image](https://github.com/user-attachments/assets/e06c0c9f-bd85-411e-9d8c-df3fe2de0203)
+
+*Figure 4: QRCodes (Simple B&W)* 
 
 ## Special Features
 
