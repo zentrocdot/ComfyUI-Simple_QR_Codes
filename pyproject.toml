@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-Simple_QR_Codes"
 description = "ComfyUI simple qr code creation."
-version = "0.0.0.2"
+version = "0.0.0.3"
 license = {file = "LICENSE"}
 
 [project.urls]
@@ -11,4 +11,4 @@ Repository = "https://github.com/zentrocdot/ComfyUI_Simple_QR_Codes"
 [tool.comfy]
 PublisherId = "zentrocdot"
 DisplayName = "ComfyUI-Simple_QR_Codes"
-Icon = "https://github.com/zentrocdot/ComfyUI_Square_Masks/blob/main/images/original_logo_512x512.png"
+Icon = "https://github.com/zentrocdot/ComfyUI-Simple_QR_Codes/blob/main/images/logo.jpg"
