@@ -36,8 +36,9 @@ with each node.</p>
 
 ## Nodes Preview
 
-<p align="justify">Figure 1 shows a preview of the three nodes which can be used for the
-creation of QR codes.</p>
+<p align="justify">Figure 1 shows a preview of the three nodes which
+can be used for the creation of QR codes. In the text area one writes
+the text which should be encoded as QR code.</p>
 
 ![image](https://github.com/user-attachments/assets/ddaeabac-883c-4677-b953-fc7be83f2900)
 
