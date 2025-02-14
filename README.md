@@ -87,10 +87,12 @@ the same workflow.</p>
 
 [2] https://pypi.org/project/segno/
 
-[3] https://www.copus.io/work/a64d054abaa25f57bc1d23c59e5bec71?spaceId=zentrocdotsposts
+[3] https://pypi.org/project/segno-pil/
 
-[4] https://www.copus.io/work/4444e7bc1d45f2fca85a06d5646feb47?spaceId=zentrocdotsposts
+[4] https://www.copus.io/work/a64d054abaa25f57bc1d23c59e5bec71?spaceId=zentrocdotsposts
 
-[5] https://github.com/coreyryanhanson/ComfyQR-scanning-nodes
+[5] https://www.copus.io/work/4444e7bc1d45f2fca85a06d5646feb47?spaceId=zentrocdotsposts
 
-[6] https://registry.comfy.org/nodes
+[6] https://github.com/coreyryanhanson/ComfyQR-scanning-nodes
+
+[7] https://registry.comfy.org/nodes
