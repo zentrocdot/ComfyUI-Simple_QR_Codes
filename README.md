@@ -18,12 +18,12 @@ can be used in a workflow</p>
 
 ## Introduction
 
-<p align="justify">So far I have created three nodes. The first, the 
-simplest, was for testing and learning purposes. The main goal is to 
-create good looking QR codes that can be used in ComfyUI ComfyUI or
-that can be saved and used in other applications or in other contexts.</p>
+<p align="justify">So far I have created three nodes. The main goal
+is to create good looking QR codes that can be used in ComfyUI ComfyUI
+or that can be saved and used in other applications or in other contexts.</p>
 
-<p align="justify">The second node can create colorful QR codes and
+<p align="justify">The first node, the simplest, was for testing and
+learning purposes. The second node can create colorful QR codes and
 round corners can be added. The third node can be used to integrate
 logos or image in the QR code.</p> 
 
