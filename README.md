@@ -31,18 +31,21 @@ logos or image in the QR code.</p>
 invert the created images. Especially with the QR code with logo, this
 idea no longer makes sense.</p>
 
-The node is supplied with everything needed to work with each node.
+<p align="justify">The node is supplied with everything needed to work
+with each node.</p>
+
+## Nodes Preview
+
+![image](https://github.com/user-attachments/assets/ddaeabac-883c-4677-b953-fc7be83f2900)
+
+*Figure 1: Nodes overview* 
 
 ## Node Preview
 
 ![image](https://github.com/user-attachments/assets/d22611f0-8e74-4bd0-978c-0f51294ea01f)
 
 
-## Node Preview
-
-![image](https://github.com/user-attachments/assets/ddaeabac-883c-4677-b953-fc7be83f2900)
-
-# Special Features
+## Special Features
 
 A special feature of the second node is the ability to add round corners to the QR code.
 
