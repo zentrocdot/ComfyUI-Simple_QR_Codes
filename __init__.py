@@ -1,10 +1,14 @@
 # Import the Python modules of the node.
 from .nodes.qr_codes import *
+from .nodes.qr_codes_reader import *
+from .nodes.show_data import *
 
 NODE_CLASS_MAPPINGS = { 
     "🎭 QRCodes (Simple B&W)": QRCodesSimpleBW,
     "🎭 QRCodes (Simple Color)": QRCodesSimple,
     "🎭 QRCodes (Logo)": QRCodesLogo,
+    "🎭 QRCodeReader": QRCodeReader,
+    "🎭 ShowData": ShowData,
     }
     
 WEB_DIRECTORY = "./js"
