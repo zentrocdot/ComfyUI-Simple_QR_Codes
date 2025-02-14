@@ -36,6 +36,9 @@ with each node.</p>
 
 ## Nodes Preview
 
+<p align="justify">Figure 1 shows a preview of the three nodes which can be used for the
+creation of QR codes.</p>
+
 ![image](https://github.com/user-attachments/assets/ddaeabac-883c-4677-b953-fc7be83f2900)
 
 *Figure 1: Nodes overview* 
@@ -44,6 +47,9 @@ with each node.</p>
 
 ![image](https://github.com/user-attachments/assets/d22611f0-8e74-4bd0-978c-0f51294ea01f)
 
+![image](https://github.com/user-attachments/assets/9779b51c-9529-40c1-9f06-2d92c908dbae)
+
+![image](https://github.com/user-attachments/assets/e06c0c9f-bd85-411e-9d8c-df3fe2de0203)
 
 ## Special Features
 
