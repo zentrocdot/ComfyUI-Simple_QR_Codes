@@ -8,12 +8,13 @@
 
 ## Preface
 
-A distinction must be made between the terms node and node. In the
-Comfy registry there is a node registered. In this case this is the
-<code>ComfyUI-Simple_QR_Codes</code> node. Such a node can be installed
-using the ComfyUI Manager or using a terminal window and cloning the
-node to the correct directory. In case of my registered node, there are
-five different nodes are contained which can be used in a workflow
+<p align="justify">A distinction must be made between the terms node
+and node. In the Comfy registry there is a node registered. In this 
+case this is the <code>ComfyUI-Simple_QR_Codes</code> node. Such a
+node can be installed using the ComfyUI Manager or using a terminal
+window and cloning the node to the correct directory. In case of my
+registered node, there are five different nodes are contained which
+can be used in a workflow</p>
 
 ## Introduction
 
