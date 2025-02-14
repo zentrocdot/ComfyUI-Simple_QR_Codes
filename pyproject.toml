@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-Simple_QR_Codes"
+description = "ComfyUI simple qr code creation."
+version = "0.0.0.1"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/zentrocdot/ComfyUI_Simple_QR_Codes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "zentrocdot"
+DisplayName = "ComfyUI-Simple_QR_Codes"
+Icon = "https://github.com/zentrocdot/ComfyUI_Square_Masks/blob/main/images/original_logo_512x512.png"
