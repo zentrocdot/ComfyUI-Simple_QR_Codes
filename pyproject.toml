@@ -6,7 +6,7 @@ license = {file = "LICENSE"}
 
 [project.urls]
 Repository = "https://github.com/zentrocdot/ComfyUI_Simple_QR_Codes"
-#  Used by Comfy Registry https://comfyregistry.org
+# Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
 PublisherId = "zentrocdot"
