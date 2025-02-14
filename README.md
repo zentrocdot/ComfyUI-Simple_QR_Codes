@@ -1,4 +1,4 @@
-# ComfyUI-Simple_QR_Codes
+# ComfyUI Simple QR Codes Node
 
 > [!IMPORTANT]  
 > <p align="justify">🚧 This documentation is still under construction.
