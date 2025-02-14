@@ -6,6 +6,15 @@
 > minor differences between the node itself and the documentation of
 > the node. The documentation is also not yet complete.</p>
 
+## Preface
+
+A distinction must be made between the terms node and node. In the
+Comfy registry there is a node registered. In this case this is the
+<code>ComfyUI-Simple_QR_Codes</code> node. Such a node can be installed
+using the ComfyUI Manager or using a terminal window and cloning the
+node to the correct directory. In case of my registered node, there are
+five different nodes are contained which can be used in a workflow
+
 ## Introduction
 
 <p align="justify">So far I have created three nodes. The first, the 
@@ -20,6 +29,8 @@ logos or image in the QR code.</p>
 <p align="justify">One idea I have since discarded is the ability to 
 invert the created images. Especially with the QR code with logo, this
 idea no longer makes sense.</p>
+
+The node is supplied with everything needed to work with each node.
 
 ## Node Preview
 
@@ -58,3 +69,5 @@ the same workflow.</p>
 [4] https://www.copus.io/work/4444e7bc1d45f2fca85a06d5646feb47?spaceId=zentrocdotsposts
 
 [5] https://github.com/coreyryanhanson/ComfyQR-scanning-nodes
+
+[6] https://registry.comfy.org/nodes
