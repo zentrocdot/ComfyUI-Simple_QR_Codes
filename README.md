@@ -13,12 +13,18 @@ simplest, was for testing and learning purposes. The main goal is to
 create good looking QR codes that can be used in ComfyUI ComfyUI or
 that can be saved and used in other applications or in other contexts.</p>
 
-<p align="justify">The second node can create colorful QR codes and round corners can be
-added. The third node can be used to integrate logos or image in the QR</p> 
-code.
+<p align="justify">The second node can create colorful QR codes and
+round corners can be added. The third node can be used to integrate
+logos or image in the QR code.</p> 
 
-<p align="justify">One idea I have since discarded is the ability to invert the created images.
-Especially with the QR code with logo, this idea no longer makes sense.</p>
+<p align="justify">One idea I have since discarded is the ability to 
+invert the created images. Especially with the QR code with logo, this
+idea no longer makes sense.</p>
+
+## Node Preview
+
+![image](https://github.com/user-attachments/assets/d22611f0-8e74-4bd0-978c-0f51294ea01f)
+
 
 ## Node Preview
 
@@ -50,3 +56,5 @@ the same workflow.</p>
 [3] https://www.copus.io/work/a64d054abaa25f57bc1d23c59e5bec71?spaceId=zentrocdotsposts
 
 [4] https://www.copus.io/work/4444e7bc1d45f2fca85a06d5646feb47?spaceId=zentrocdotsposts
+
+[5] https://github.com/coreyryanhanson/ComfyQR-scanning-nodes
