@@ -53,7 +53,13 @@ creation of QR codes.</p>
 
 ## Special Features
 
-A special feature of the second node is the ability to add round corners to the QR code.
+<p align="justify">A special feature of the second node is the
+ability to add round corners to the QR code.</p>
+
+## Limitations
+
+<p align="justify">The rudimentary QR code reader node is only
+suitable for reading black QR code on white background so far.</p>
 
 ## Open Issues
 
