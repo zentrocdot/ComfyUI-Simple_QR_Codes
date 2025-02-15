@@ -21,11 +21,16 @@ can be used in a workflow.</p>
 <p align="justify">For the QR code generation one can use the Python
 module <code>qrcode</code> or the Python module <code>segno</code>. I
 make use of both of them. However, I now prefer the use of the Python 
-module segno for generating QR codes.</p>
+module segno for generating QR codes. The focus for further development
+is on this segno based node</p>
 
 # Segno Based 
 
-to-do ...
+## Node Preview 
+
+![image](https://github.com/user-attachments/assets/62d96992-c423-4f0a-ba55-1b4a5800f73a)
+
+*Figure 1: Workflow preview* 
 
 # Qrcode Based 
 
@@ -50,27 +55,27 @@ with each node.</p>
 
 ## Nodes Preview
 
-<p align="justify">Figure 1 shows a preview of the three nodes which
+<p align="justify">Figure 2 shows a preview of the three nodes which
 can be used for the creation of QR codes. In the text area one writes
 the text which should be encoded as QR code.</p>
 
 ![image](https://github.com/user-attachments/assets/ddaeabac-883c-4677-b953-fc7be83f2900)
 
-*Figure 1: Nodes overview* 
+*Figure 2: Nodes overview* 
 
 ## Node Preview
 
 ![image](https://github.com/user-attachments/assets/d22611f0-8e74-4bd0-978c-0f51294ea01f)
 
-*Figure 2: QRCodes (Simple Color)* 
+*Figure 3: QRCodes (Simple Color)* 
 
 ![image](https://github.com/user-attachments/assets/9779b51c-9529-40c1-9f06-2d92c908dbae)
 
-*Figure 3: QRCodes (Logo)* 
+*Figure 4: QRCodes (Logo)* 
 
 ![image](https://github.com/user-attachments/assets/e06c0c9f-bd85-411e-9d8c-df3fe2de0203)
 
-*Figure 4: QRCodes (Simple B&W)* 
+*Figure 5: QRCodes (Simple B&W)* 
 
 ## Special Features
 
