@@ -45,7 +45,7 @@ class ShowData:
     INPUT_IS_LIST = (True,)
     OUTPUT_NODE = True
 
-    CATEGORY = "🍭 QR Code Nodes"
+    CATEGORY = "🍭 QR Code Nodes/🧰 utils"
     FUNCTION = "process_data"
 
     def process_data(self, input, data, unique_id):

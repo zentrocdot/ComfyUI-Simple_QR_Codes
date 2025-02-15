@@ -101,7 +101,7 @@ class QRCodesLogo:
     RETURN_TYPES = ("IMAGE", "MASK", "MASK",)
     RETURN_NAMES = ("IMAGE", "MASK", "INVERTED_MASK",)
     FUNCTION = "qr_code_creation"
-    CATEGORY = "🍭 QR Code Nodes"
+    CATEGORY = "🍭 QR Code Nodes/🚜 qrcode-based"
     OUTPUT_NODE = True
 
     def create_qr_code(self, text, bg_color, fg_color, error_correct,
@@ -203,7 +203,7 @@ class QRCodesSimple:
     RETURN_TYPES = ("IMAGE", "MASK", "MASK",)
     RETURN_NAMES = ("IMAGE", "MASK", "INVERTED_MASK",)
     FUNCTION = "qr_code_creation"
-    CATEGORY = "🍭 QR Code Nodes"
+    CATEGORY = "🍭 QR Code Nodes/🚜 qrcode-based"
     OUTPUT_NODE = True
 
     def create_qr_code(self, text, bg_color, fg_color, error_correct,
@@ -282,7 +282,7 @@ class QRCodesSimpleBW:
     RETURN_TYPES = ("IMAGE", "MASK", "MASK",)
     RETURN_NAMES = ("IMAGE", "MASK", "INVERTED_MASK",)
     FUNCTION = "qr_code_creation"
-    CATEGORY = "🍭 QR Code Nodes"
+    CATEGORY = "🍭 QR Code Nodes/🚜 qrcode-based"
     OUTPUT_NODE = True
 
     def create_qr_code(self, text):

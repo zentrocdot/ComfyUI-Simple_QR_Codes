@@ -78,8 +78,9 @@ class QRCodeReader:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("TEXT",)
     FUNCTION = "qr_code_reader"
-    CATEGORY = "🍭 QR Code Nodes"
+    CATEGORY = "🍭 QR Code Nodes/📚 reader"
     OUTPUT_NODE = True
+    OUTPUT_IS_LIST = (True,)
 
     def read_qr_code(self, image):
         '''Read the QR Code image.'''
