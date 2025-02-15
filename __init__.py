@@ -2,10 +2,12 @@
 from .nodes.qr_codes import *
 from .nodes.qr_codes_reader import *
 from .nodes.show_data import *
+from .nodes.qr_codes_segno import *
 
 NODE_CLASS_MAPPINGS = { 
     "🎭 QRCodes (Simple B&W)": QRCodesSimpleBW,
     "🎭 QRCodes (Simple Color)": QRCodesSimple,
+    "🎭 QRCodes (Segno Full Version)": QRCodesSegnoFull,
     "🎭 QRCodes (Logo)": QRCodesLogo,
     "🎭 QRCodeReader": QRCodeReader,
     "🎭 ShowData": ShowData,
