@@ -14,13 +14,27 @@ case this is the <code>ComfyUI-Simple_QR_Codes</code> node. Such a
 node can be installed using the ComfyUI Manager or using a terminal
 window and cloning the node to the correct directory. In case of my
 registered node, there are five different nodes are contained which
-can be used in a workflow</p>
+can be used in a workflow.</p>
+
+## Get Started
+
+<p align="justify">For the QR code generation one can use the Python
+module <code>qrcode</code> or the Python module <code>segno</code>. I
+make use of both of them. However, I now prefer the use of the Python 
+module segno for generating QR codes.</p>
+
+# Segno Based 
+
+to-do ...
+
+# Qrcode Based 
 
 ## Introduction
 
 <p align="justify">So far I have created three nodes. The main goal
 is to create good looking QR codes that can be used in ComfyUI ComfyUI
-or that can be saved and used in other applications or in other contexts.</p>
+or that can be saved and used in other applications or in other 
+contexts.</p>
 
 <p align="justify">The first node, the simplest, was for testing and
 learning purposes. The second node can create colorful QR codes and
