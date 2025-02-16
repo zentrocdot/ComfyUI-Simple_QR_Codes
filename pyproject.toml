@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-Simple_QR_Codes"
 description = "ComfyUI node for writing and reading QR codes."
-version = "0.0.0.7"
+version = "0.0.0.8"
 license = {file = "LICENSE"}
 
 [project.urls]
