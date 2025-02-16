@@ -62,10 +62,10 @@ def string2tuple(color_string):
     # Return the color tuple
     return color_tuple
 
-# **********************
-# Class QRCodesSegnoFull
-# **********************
-class QRCodesSegnoFull:
+# ************************
+# Class QRCodesSegnoSimple
+# ************************
+class QRCodesSegnoSimple:
     '''Create a QR code image.'''
 
     def __init__(self):
@@ -77,10 +77,8 @@ class QRCodesSegnoFull:
         '''Define the input types.'''
         return {
             "required": {
-                #"dark": ("STRING", {"multiline": False, "default": "darkred"}),
-                #"light": ("STRING", {"multiline": False, "default": "salmon"}),
-                "dark": ("STRING", {"multiline": False, "default": "None"}),
-                "light": ("STRING", {"multiline": False, "default": "None"}),
+                "dark": ("STRING", {"multiline": False, "default": "darkred"}),
+                "light": ("STRING", {"multiline": False, "default": "salmon"}),
                 "text": ("STRING", {"multiline": True, "default": ""}),
                 "width": ("INT", {"default": 512, "min": 1, "max": 8192}),
                 "height": ("INT", {"default": 512, "min": 1, "max": 8192}),
@@ -88,21 +86,6 @@ class QRCodesSegnoFull:
                 "error_correct": (ERROR_LEVEL, {}),
                 "version": (VERSION, {}),
                 "border": ("INT", {"default": 4, "min": 0, "max": 8192}),
-                "data_dark": ("STRING", {"multiline": False, "default": "darkorange"}),
-                "data_light": ("STRING", {"multiline": False, "default": "yellow"}),
-                "alignment_dark": ("STRING", {"multiline": False, "default": "darkgreen"}),
-                "alignment_light": ("STRING", {"multiline": False, "default": "palegreen"}),
-                "version_dark": ("STRING", {"multiline": False, "default": "peru"}),
-                "version_light": ("STRING", {"multiline": False, "default": "tan"}),
-                "finder_dark": ("STRING", {"multiline": False, "default": "darkblue"}),
-                "finder_light": ("STRING", {"multiline": False, "default": "lightblue"}),
-                "format_dark": ("STRING", {"multiline": False, "default": "indigo"}),
-                "format_light": ("STRING", {"multiline": False, "default": "magenta"}),
-                "timing_dark": ("STRING", {"multiline": False, "default": "mediumvioletred"}),
-                "timing_light": ("STRING", {"multiline": False, "default": "pink"}),
-                "separator": ("STRING", {"multiline": False, "default": "azure"}),
-                "dark_module": ("STRING", {"multiline": False, "default": "black"}),
-                "quiet_zone": ("STRING", {"multiline": False, "default": "lightyellow"}),
                 "mask_color": (["red", "green", "blue"], {}),
             },
         }
@@ -113,11 +96,7 @@ class QRCodesSegnoFull:
     CATEGORY = "🍭 QR Code Nodes/🚂 segno-based"
     OUTPUT_NODE = True
 
-    def create_qr_code(self, text, error_correct, version, border,dark, light,
-                       data_dark, data_light, alignment_dark, alignment_light,
-                       version_dark, version_light, quiet_zone, finder_dark,
-                       finder_light, format_dark, format_light, timing_dark,
-                       timing_light, separator, dark_module, scale):
+    def create_qr_code(self, text, error_correct, version, border, dark, light, scale):
         '''Create the QR Code image.'''
         # Create the QR code.
         error_correct = error_correct.lower()
@@ -126,58 +105,22 @@ class QRCodesSegnoFull:
         # Check the values of the variables.
         dark = None if dark == "None" else dark
         light = None if light == "None" else light
-        data_dark = None if data_dark == "None" else data_dark
-        data_light = None if data_light == "None" else data_light
-        alignment_dark = None if alignment_dark == "None" else alignment_dark
-        alignment_light = None if alignment_light == "None" else alignment_light
-        version_dark = None if version_dark == "None" else version_dark
-        version_light = None if version_light == "None" else version_light
-        finder_dark = None if finder_dark == "None" else finder_dark
-        finder_light = None if finder_light == "None" else finder_light
-        format_dark = None if format_dark == "None" else format_dark
-        format_light = None if format_light == "None" else finder_light
-        timing_dark = None if timing_dark == "None" else timing_dark
-        timing_light = None if timing_light == "None" else timing_light
-        dark_module = None if dark_module == "None" else dark_module
-        separator = None if separator == "None" else separator
-        quiet_zone = None if quiet_zone == "None" else quiet_zone
         # Configure the QR code image.
         qrcode_image = QRcode.to_pil(
             scale=scale,
             border=border,
             dark=dark,
             light=light,
-            data_dark=data_dark,
-            data_light=data_light,
-            quiet_zone=quiet_zone,
-            alignment_dark=alignment_dark,
-            alignment_light=alignment_light,
-            version_dark=version_dark,
-            version_light=version_light,
-            finder_dark=finder_dark,
-            finder_light=finder_light,
-            format_dark=format_dark,
-            format_light=format_light,
-            timing_dark=timing_dark,
-            timing_light=timing_light,
-            dark_module=dark_module,
-            separator=separator
         )
         # Return the QR code image.
         return qrcode_image
 
     def qr_code_creation(self, text, width, height, error_correct, version,
-             border, mask_color, dark, light, data_dark, data_light,
-             alignment_dark, alignment_light, version_dark, version_light,
-             quiet_zone, finder_dark, finder_light, format_dark, format_light,
-             timing_dark, timing_light, separator, dark_module, scale):
+             border, mask_color, dark, light, scale):
         '''Main node function. Create a QR code image.'''
         # Create the QR code from the given text.
         qrcode_image = self.create_qr_code(text, error_correct, version,
-            border, dark, light, data_dark, data_light, alignment_dark,
-            alignment_light, version_dark, version_light, quiet_zone,
-            finder_dark, finder_light, format_dark, format_light,
-            timing_dark, timing_light, separator, dark_module, scale)
+            border, dark, light, scale)
         # Resize the image. Convert the image to RGB.
         qrcode_image = qrcode_image.resize((width, height), resample=3)
         qrcode_image = qrcode_image.convert(mode='RGB')
