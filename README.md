@@ -107,6 +107,14 @@ and Version 40 is the largest with 177x177 blocks. The QR
 code’s version affects the amount of data it can store. 
 Larger versions are able to hold more informations.</p>
 
+## Error Correction Level
+
+| Level      |  Name    | percent (%) |
+| -----------| ---------| ------------ |
+| L          | (Low)	  | 7 %           |
+|  M          | (Medium)	| 15 %        |
+| Q          | (Quartile)	| 25 %        |
+
 # Segno Based Node
 
 ## Nodes Preview
