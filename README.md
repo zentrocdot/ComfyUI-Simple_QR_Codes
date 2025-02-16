@@ -109,11 +109,12 @@ Larger versions are able to hold more informations.</p>
 
 ## Error Correction Level
 
-| Level      |  Name    | percent (%) |
-| -----------| ---------| ------------ |
-| L          | (Low)	  | 7 %           |
-|  M          | (Medium)	| 15 %        |
-| Q          | (Quartile)	| 25 %        |
+| Level    |  Name     | Percent (%) |
+| ---------| ----------| ----------- |
+| L        | Low  	   | 7 %         |
+| M        | Medium    | 15 %        |
+| Q        | Quartile  | 25 %        |
+| H        | High      | 30 %        |
 
 # Segno Based Node
 
