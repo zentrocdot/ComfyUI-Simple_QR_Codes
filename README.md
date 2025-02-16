@@ -54,13 +54,24 @@ or not perfectly aligned.</p>
 
 ## Quiet Zone
 
-<p align="justify"></p>
+<p align="justify">The quiet zone is the blank margin or border 
+around the QR code. It separates the QR code from other elements
+like graphics or text. This empty space ensures that the QR
+reader can identify the QR code, allowing for accurate scanning 
+and preventing interference from the surrounding objects.</p>
 
 ![image](https://github.com/user-attachments/assets/dc23b33e-5ffc-4e5b-a12a-c2f7292196f1)
 
 ## Timing Pattern
 
-<p align="justify"></p>
+<p align="justify">The timing pattern in the QR code is the
+alternating dark-light blocks between the finder patterns.
+These help the QR reader determine the grid's structure by
+providing a reference for positioning the data in the QR
+code. These patterns are essential for accurate scanning.
+They ensure that the QR code is read in the correct
+orientation and that the data blocks are properly
+aligned.</p>
 
 ![image](https://github.com/user-attachments/assets/3eb67493-20d3-4b53-905b-1ae89bbe5fa8)
 
@@ -68,13 +79,27 @@ or not perfectly aligned.</p>
 
 ![image](https://github.com/user-attachments/assets/c523e637-d28d-417f-908d-80e786e5a43a)
 
-<p align="justify"></p>
+<p align="justify">Format information refers to a small
+portion of information in a QR code that stores details
+about the error correction level. It is located near the
+finder patterns and is essential for ensuring the accurate
+decoding, even if the QR code is partially damaged or
+distorted.</p>
 
 ## Version Information
 
 ![image](https://github.com/user-attachments/assets/7f2b4873-7817-49aa-8a01-f2477bba669e)
 
-<p align="justify"></p>
+<p align="justify">Version information pertains to data
+that shows the code's dimensions and capability. In bigger
+sizes from version 7 and above, the data is encoded in the
+QR code's top-right and bottom-left corners. The version
+number tells the QR code reader scanner how many blocks or
+squares are in the grid. QR codes come in 40 different
+versions, where Version 1 is the smallest with 21x21 blocks
+and Version 40 is the largest with 177x177 blocks. The QR 
+code’s version affects the amount of data it can store. 
+Larger versions are able to hold more informations.</p>
 
 # Segno Based Node
 
