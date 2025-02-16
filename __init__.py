@@ -5,7 +5,7 @@ from .nodes.qr_codes_reader import *
 from .nodes.show_data import *
 from .nodes.qr_codes_segno import *
 from .nodes.qr_codes_segno_simple import *
-from .nodes.qr_codes_segno_image import *
+#from .nodes.qr_codes_segno_image import *
 
 NODE_CLASS_MAPPINGS = {
     "🛸 QRCodes (Segno Full Version)": QRCodesSegnoFull,
