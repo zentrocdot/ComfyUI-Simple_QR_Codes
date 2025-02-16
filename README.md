@@ -90,9 +90,6 @@ distorted.</p>
 
 ![image](https://github.com/user-attachments/assets/ffe6375b-b7c0-40bb-93ed-e3c49b2a90f9)
 
-
-![image](https://github.com/user-attachments/assets/7f2b4873-7817-49aa-8a01-f2477bba669e)
-
 <p align="justify">Version information pertains to data
 that shows the code's dimensions and capability. In bigger
 sizes from version 7 and above, the data is encoded in the
