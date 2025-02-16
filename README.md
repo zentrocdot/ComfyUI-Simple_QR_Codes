@@ -36,7 +36,7 @@ QR code standards.</p>
 
 ## Fully Coloured
 
-![image](https://github.com/user-attachments/assets/59a4bd57-bc29-4a5d-b7ee-0b7cf3a6f321)
+![image](https://github.com/user-attachments/assets/1f67ded7-68c2-4044-8b6d-e2ccb8195435)
 
 ## Finder Pattern
 
