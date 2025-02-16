@@ -12,7 +12,7 @@ NODE_CLASS_MAPPINGS = {
     "🛸 QRCodes (Segno Simple Version)": QRCodesSegnoSimple,
     "🛸 QRCodes (Segno Simple Logo)": QRCodesSegnoLogo,
     "🛰️ QRCodes (Simple Color)": QRCodesSimple,
-    "🛰️ QRCodes (Simple Logo)": QRCodesLogo,
+    #"🛰️ QRCodes (Simple Logo)": QRCodesLogo,
     "🛰️ QRCodes (Simple Style)": QRCodesStyle,
     "🛰️ QRCodes (Simple B&W)": QRCodesSimpleBW,
     "🎭 QRCodeReader": QRCodeReader,
