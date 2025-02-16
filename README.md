@@ -70,7 +70,7 @@ or not perfectly aligned.</p>
 
 <p align="justify"></p>
 
-##
+## Version Information
 
 ![image](https://github.com/user-attachments/assets/7f2b4873-7817-49aa-8a01-f2477bba669e)
 
