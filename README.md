@@ -43,7 +43,7 @@ code properly for scanning.</p>
 
 ![image](https://github.com/user-attachments/assets/d8a742b9-7e20-4301-975f-c9db517c335d)
 
-## Alignment pattern
+## Alignment Pattern
 
 <p align="justify">The alignment patterns or alignment markers are
 the smaller square patterns inside of a QR code. They help the QR
@@ -51,6 +51,27 @@ code reader to read the code accurately, especially when distorted
 or not perfectly aligned.</p>
 
 ![image](https://github.com/user-attachments/assets/bb66ebec-bede-4243-ade3-155f329575aa)
+
+## Quiet Zone
+
+<p align="justify"></p>
+
+![image](https://github.com/user-attachments/assets/dc23b33e-5ffc-4e5b-a12a-c2f7292196f1)
+
+## Timing Pattern
+
+<p align="justify"></p>
+
+![image](https://github.com/user-attachments/assets/3eb67493-20d3-4b53-905b-1ae89bbe5fa8)
+
+## 
+
+![image](https://github.com/user-attachments/assets/c92e803b-18e6-41e8-b5d5-4b8b686e0c30)
+
+##
+
+![image](https://github.com/user-attachments/assets/14182ce6-4afd-462c-b9cb-bbddc6b4e31e)
+
 
 # Segno Based Node
 
