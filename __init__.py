@@ -1,14 +1,20 @@
 # Import the Python modules of the node.
 from .nodes.qr_codes import *
+from .nodes.qr_codes_circular import *
 from .nodes.qr_codes_reader import *
 from .nodes.show_data import *
 from .nodes.qr_codes_segno import *
+from .nodes.qr_codes_segno_simple import *
+from .nodes.qr_codes_segno_image import *
 
-NODE_CLASS_MAPPINGS = { 
-    "🎭 QRCodes (Simple B&W)": QRCodesSimpleBW,
-    "🎭 QRCodes (Simple Color)": QRCodesSimple,
-    "🎭 QRCodes (Segno Full Version)": QRCodesSegnoFull,
-    "🎭 QRCodes (Logo)": QRCodesLogo,
+NODE_CLASS_MAPPINGS = {
+    "🛸 QRCodes (Segno Full Version)": QRCodesSegnoFull,
+    "🛸 QRCodes (Segno Simple Version)": QRCodesSegnoSimple,
+    "🛸 QRCodes (Segno Simple Logo)": QRCodesSegnoLogo,
+    "🛰️ QRCodes (Simple Color)": QRCodesSimple,
+    "🛰️ QRCodes (Simple Logo)": QRCodesLogo,
+    "🛰️ QRCodes (Simple Style)": QRCodesStyle,
+    "🛰️ QRCodes (Simple B&W)": QRCodesSimpleBW,
     "🎭 QRCodeReader": QRCodeReader,
     "🎭 ShowData": ShowData,
     }
