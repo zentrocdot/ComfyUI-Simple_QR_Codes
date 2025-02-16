@@ -88,6 +88,9 @@ distorted.</p>
 
 ## Version Information
 
+![image](https://github.com/user-attachments/assets/ffe6375b-b7c0-40bb-93ed-e3c49b2a90f9)
+
+
 ![image](https://github.com/user-attachments/assets/7f2b4873-7817-49aa-8a01-f2477bba669e)
 
 <p align="justify">Version information pertains to data
@@ -142,7 +145,6 @@ idea no longer makes sense.</p>
 
 <p align="justify">The node is supplied with everything needed to work
 with each node.</p>
-
 
 ## Node Preview
 
