@@ -34,6 +34,10 @@ QR code standards.</p>
 
 # QR Codes Explanation
 
+## Fully Coloured
+
+![image](https://github.com/user-attachments/assets/59a4bd57-bc29-4a5d-b7ee-0b7cf3a6f321)
+
 ## Finder Pattern
 
 <p align="justify">The finder patterns or position markers are the
