@@ -36,6 +36,8 @@ QR code standards.</p>
 
 ## Fully Coloured
 
+<p align="justify">A fully coloured QR code can look like the one below.</p>
+
 ![image](https://github.com/user-attachments/assets/1f67ded7-68c2-4044-8b6d-e2ccb8195435)
 
 ## Finder Pattern
