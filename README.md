@@ -8,21 +8,29 @@
 
 ## Preface
 
-<p align="justify">A distinction must be made between the terms node
-and node. In the Comfy registry there is a node registered. In this 
-case this is the <code>ComfyUI-Simple_QR_Codes</code> node. Such a
-node can be installed using the ComfyUI Manager or using a terminal
-window and cloning the node to the correct directory. In case of my
-registered node, there are five different nodes are contained which
-can be used in a workflow.</p>
+<p align="justify">A distinction must be made between the terms node and
+node. In the Comfy registry there is a node registered. In this case this
+is the <code>ComfyUI-Simple_QR_Codes</code> node. Such a node can be
+installed using the ComfyUI Manager or using a terminal window and cloning
+the node to the correct directory <code>custom_nodes</code>. In case of my
+registered node, there are seven different nodes are contained which can be
+used in a workflow.</p>
 
 ## Get Started
 
+<p align="justify">The word QR Code is a registered trademark of the 
+DENSO WAVE INCORPORATED in Japan and other countries. The trademark
+refers primarily to the word QR Code. However, it should be noted that
+the trademark must also refer to the encoding and decoding, otherwise
+the benefits of the QR code would be diluted. Nevertheless the created
+QR Code images can be used private as well as commercial free of
+charge.</p>
+
 <p align="justify">For the QR code generation one can use the Python
 module <code>qrcode</code> or the Python module <code>segno</code>. I
-make use of both of them. However, I now prefer the use of the Python 
-module segno for generating QR codes. The focus for further development
-is on this segno based node</p>
+make use of both of them. In terms of regulations, I have to say that 
+I have not checked that both Python modules comply with the published
+QR code standards.</p>
 
 # Segno Based 
 
