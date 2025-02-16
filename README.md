@@ -72,7 +72,7 @@ or not perfectly aligned.</p>
 
 ##
 
-![image](https://github.com/user-attachments/assets/92c7e721-f595-4236-b5dd-0220af52bf3c)
+![image](https://github.com/user-attachments/assets/7f2b4873-7817-49aa-8a01-f2477bba669e)
 
 <p align="justify"></p>
 
