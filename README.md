@@ -58,7 +58,7 @@ or not perfectly aligned.</p>
 
 ## Quiet Zone
 
-<p align="justify">The quiet zone is the blank margin or border 
+<p align="justify">The quiet zone (tomato) is the blank margin or border 
 around the QR code. It separates the QR code from other elements
 like graphics or text. This empty space ensures that the QR
 reader can identify the QR code, allowing for accurate scanning 
