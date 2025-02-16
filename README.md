@@ -41,8 +41,7 @@ three large square shapes at the corners of the QR codes. They help
 QR code readers to detect the position of the QR code and align the
 code properly for scanning.</p>
 
-![image](https://github.com/user-attachments/assets/9fbd0b6e-80ea-482b-a2c4-fcc941cf0b6e)
-
+![image](https://github.com/user-attachments/assets/d8a742b9-7e20-4301-975f-c9db517c335d)
 
 # Segno Based Node
 
