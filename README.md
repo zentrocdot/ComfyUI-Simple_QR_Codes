@@ -100,6 +100,10 @@ leads to a loss in quality.</p>
 scan node. Then I can check the result of the QR code creation within
 the same workflow.</p>
 
+## Legal Notice
+
+<p align="justify">QR Code is a registered trademark of the DENSO WAVE INCORPORATED.</p>
+
 # References
 
 [1] https://pypi.org/project/qrcode/
