@@ -32,6 +32,18 @@ make use of both of them. In terms of regulations, I have to say that
 I have not checked that both Python modules comply with the published
 QR code standards.</p>
 
+# QR Codes Explanation
+
+## Finder
+
+<p align="justify">The finder patterns or position markers are the
+three large square shapes at the corners of the QR codes. They help
+QR code readers to detect the position of the QR code and align the
+code properly for scanning.</p>
+
+![image](https://github.com/user-attachments/assets/9fbd0b6e-80ea-482b-a2c4-fcc941cf0b6e)
+
+
 # Segno Based Node
 
 ## Nodes Preview
@@ -44,7 +56,8 @@ the text which should be encoded as QR code.</p>
 
 *Figure 1: Nodes overview* 
 
-
+<p align="justify">The first node is a full implementation of the 
+Python module segno with respect to the QR code parameter.</p> 
 
 ## Node Preview 
 
