@@ -75,7 +75,6 @@ class QRCodesLogo:
 
     def __init__(self):
         self.channels = ["red", "green", "blue"]
-        self.basewidth = 100
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -85,13 +84,14 @@ class QRCodesLogo:
                 "text": ("STRING", {"multiline": True, "default": ""}),
                 "width": ("INT", {"default": 512, "min": 1, "max": 8192}),
                 "height": ("INT", {"default": 512, "min": 1, "max": 8192}),
-                "bg_color": ("STRING", {"multiline": False, "default": "(0, 0, 0)"}),
-                "fg_color": ("STRING", {"multiline": False, "default": "(255, 255, 255)"}),
+                "fg_color": ("STRING", {"multiline": False, "default": "(0, 0, 0)"}),
+                "bg_color": ("STRING", {"multiline": False, "default": "(255, 255, 255)"}),
                 "error_correct": (ERR_CORR, {}),
                 "version": (VERSION, {}),
-                "box_size": ("INT", {"default": 10, "min": 0, "max": 8192}),
+                "box_size": ("INT", {"default": 25, "min": 0, "max": 8192}),
                 "border": ("INT", {"default": 4, "min": 0, "max": 8192}),
-                "color": (["red", "green", "blue"], {}),
+                "width_height_logo": ("INT", {"default": 64, "min": 0, "max": 8192}),
+                "mask_color": (["red", "green", "blue"], {}),
             },
             "optional": {
                 "image": ("IMAGE",),
@@ -105,17 +105,11 @@ class QRCodesLogo:
     OUTPUT_NODE = True
 
     def create_qr_code(self, text, bg_color, fg_color, error_correct,
-                       version, box_size, border, image):
+                       version, box_size, border):
         '''Create the QR Code image.'''
         # Create the color tuples.
         fg_color = string2tuple(fg_color)
         bg_color = string2tuple(bg_color)
-        # Set the logo image.
-        logo = image
-        # Adjust the logo image size.
-        w_percent = self.basewidth / float(logo.size[0])
-        h_size = int((float(logo.size[1]) * float(w_percent)))
-        logo = logo.resize((self.basewidth, h_size), resample=3)
         # Create the QR code.
         err_corr = ERROR_CORRECT[error_correct]
         QRcode = qrcode.QRCode(
@@ -132,6 +126,33 @@ class QRCodesLogo:
         QRimg = QRcode.make_image(
             fill_color=fg_color, back_color=bg_color
         ).convert('RGB')
+        # Create return image.
+        qrcode_image = QRimg
+        # Return the qr code image.
+        return qrcode_image
+
+    def qr_code_creation(self, text, width, height, bg_color, fg_color,
+                         error_correct, version, box_size, border,
+                         mask_color, width_height_logo, image=None):
+        '''Main node function. Create a QR code image.'''
+        # Check if image exists.
+        if image is not None:
+            # Create a tensor from the image.
+            image = tensor2pil(image)
+        else:
+            col = string2tuple(fg_color)
+            n, m = width_height_logo, width_height_logo
+            image = Image.new('RGB', (n, m), col)
+        # Adjust the logo image size.
+        w_percent = width_height_logo / float(image.size[0])
+        h_size = int((float(image.size[1]) * float(w_percent)))
+        logo = image.resize((width_height_logo, h_size), resample=3)
+        # Create the QR code from the text.
+        qrcode_image = self.create_qr_code(text, bg_color, fg_color,
+                                           error_correct, version,
+                                           box_size, border)
+        # Resize the image.
+        QRimg = qrcode_image.resize((width, height), resample=3)
         # Set the size of the QR code.
         pos = (
                (QRimg.size[0] - logo.size[0]) // 2,
@@ -139,33 +160,11 @@ class QRCodesLogo:
         )
         # Add logo to QR code.
         QRimg.paste(logo, pos)
-        # Create return image.
-        qrcode_image = QRimg
-        # Return the qr code image.
-        return qrcode_image
-
-    def qr_code_creation(self, text, width, height, bg_color,
-                         fg_color, error_correct, version,
-                         box_size, border, color, image=None):
-        '''Main node function. Create a QR code image.'''
-        if image is not None:
-            # Create a tensor from the image.
-            image = tensor2pil(image)
-        else:
-            col = string2tuple(fg_color)
-            n,m = 100,100
-            image = Image.new('RGB', (n, m), col)
-        # Create the QR code from the text.
-        qrcode_image = self.create_qr_code(text, bg_color, fg_color,
-                                           error_correct, version,
-                                           box_size, border, image)
-        # Resize the image.
-        qrcode_image = qrcode_image.resize((width, height), resample=3)
         # Convert the PIL images to Torch tensors.
-        image_out = pil2tensor(qrcode_image)
-        maskImage = pil2tensor(qrcode_image)
+        image_out = pil2tensor(QRimg)
+        maskImage = pil2tensor(QRimg)
         # Create the masks.
-        idx = self.channels.index(color)
+        idx = self.channels.index(mask_color)
         invertedmask = maskImage[:, :, :, idx]
         mask = 1 - invertedmask
         # Return the return types.
@@ -189,8 +188,8 @@ class QRCodesSimple:
                 "text": ("STRING", {"multiline": True, "default": ""}),
                 "width": ("INT", {"default": 512, "min": 1, "max": 8192}),
                 "height": ("INT", {"default": 512, "min": 1, "max": 8192}),
-                "bg_color": ("STRING", {"multiline": False, "default": "(0, 0, 0)"}),
-                "fg_color": ("STRING", {"multiline": False, "default": "(255, 255, 255)"}),
+                "fg_color": ("STRING", {"multiline": False, "default": "(0, 0, 0)"}),
+                "bg_color": ("STRING", {"multiline": False, "default": "(255, 255, 255)"}),
                 "error_correct": (ERR_CORR, {}),
                 "version": (VERSION, {}),
                 "box_size": ("INT", {"default": 10, "min": 0, "max": 8192}),
