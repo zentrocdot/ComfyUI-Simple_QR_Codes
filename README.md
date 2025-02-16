@@ -36,20 +36,21 @@ QR code standards.</p>
 
 ## Nodes Preview
 
-<p align="justify">Figure 2 shows a preview of the three nodes which
+<p align="justify">Figure 1 shows a preview of the three nodes which
 can be used for the creation of QR codes. In the text area one writes
 the text which should be encoded as QR code.</p>
 
 ![image](https://github.com/user-attachments/assets/83d2c020-9003-4ed7-83d6-ef797bd69d22)
 
-*Figure 2: Nodes overview* 
+*Figure 1: Nodes overview* 
+
 
 
 ## Node Preview 
 
 ![image](https://github.com/user-attachments/assets/62d96992-c423-4f0a-ba55-1b4a5800f73a)
 
-*Figure 1: Workflow preview* 
+*Figure 2: Workflow preview* 
 
 # Qrcode Based 
 
