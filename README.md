@@ -36,6 +36,8 @@ QR code standards.</p>
 
 ## Node Preview 
 
+
+
 ![image](https://github.com/user-attachments/assets/62d96992-c423-4f0a-ba55-1b4a5800f73a)
 
 *Figure 1: Workflow preview* 
