@@ -34,7 +34,7 @@ QR code standards.</p>
 
 # QR Codes Explanation
 
-## Finder
+## Finder Pattern
 
 <p align="justify">The finder patterns or position markers are the
 three large square shapes at the corners of the QR codes. They help
@@ -42,6 +42,15 @@ QR code readers to detect the position of the QR code and align the
 code properly for scanning.</p>
 
 ![image](https://github.com/user-attachments/assets/d8a742b9-7e20-4301-975f-c9db517c335d)
+
+## Alignment pattern
+
+<p align="justify">The alignment patterns or alignment markers are
+the smaller square patterns inside of a QR code. They help the QR
+code reader to read the code accurately, especially when distorted
+or not perfectly aligned.</p>
+
+![image](https://github.com/user-attachments/assets/bb66ebec-bede-4243-ade3-155f329575aa)
 
 # Segno Based Node
 
