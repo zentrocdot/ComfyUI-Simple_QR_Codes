@@ -68,13 +68,13 @@ or not perfectly aligned.</p>
 
 ![image](https://github.com/user-attachments/assets/c523e637-d28d-417f-908d-80e786e5a43a)
 
-
-![image](https://github.com/user-attachments/assets/c92e803b-18e6-41e8-b5d5-4b8b686e0c30)
+<p align="justify"></p>
 
 ##
 
-![image](https://github.com/user-attachments/assets/14182ce6-4afd-462c-b9cb-bbddc6b4e31e)
+![image](https://github.com/user-attachments/assets/92c7e721-f595-4236-b5dd-0220af52bf3c)
 
+<p align="justify"></p>
 
 # Segno Based Node
 
