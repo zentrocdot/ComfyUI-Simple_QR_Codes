@@ -32,11 +32,20 @@ make use of both of them. In terms of regulations, I have to say that
 I have not checked that both Python modules comply with the published
 QR code standards.</p>
 
-# Segno Based 
+# Segno Based Node
+
+## Nodes Preview
+
+<p align="justify">Figure 2 shows a preview of the three nodes which
+can be used for the creation of QR codes. In the text area one writes
+the text which should be encoded as QR code.</p>
+
+![image](https://github.com/user-attachments/assets/83d2c020-9003-4ed7-83d6-ef797bd69d22)
+
+*Figure 2: Nodes overview* 
+
 
 ## Node Preview 
-
-
 
 ![image](https://github.com/user-attachments/assets/62d96992-c423-4f0a-ba55-1b4a5800f73a)
 
@@ -63,15 +72,6 @@ idea no longer makes sense.</p>
 <p align="justify">The node is supplied with everything needed to work
 with each node.</p>
 
-## Nodes Preview
-
-<p align="justify">Figure 2 shows a preview of the three nodes which
-can be used for the creation of QR codes. In the text area one writes
-the text which should be encoded as QR code.</p>
-
-![image](https://github.com/user-attachments/assets/ddaeabac-883c-4677-b953-fc7be83f2900)
-
-*Figure 2: Nodes overview* 
 
 ## Node Preview
 
