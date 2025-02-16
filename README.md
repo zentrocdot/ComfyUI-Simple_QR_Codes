@@ -123,3 +123,5 @@ the same workflow.</p>
 [8] https://registry.comfy.org/nodes
 
 [9] https://github.com/heuer/segno/
+
+[10] https://www.qrcode.com/en/faq.html
