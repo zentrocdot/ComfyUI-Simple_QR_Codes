@@ -6,6 +6,7 @@ from .nodes.show_data import *
 from .nodes.qr_codes_segno import *
 from .nodes.qr_codes_segno_simple import *
 from .nodes.qr_codes_segno_logo import *
+from .nodes.create_frame_01 import *
 
 NODE_CLASS_MAPPINGS = {
     "🛸 QRCodes (Segno Full Version)": QRCodesSegnoFull,
@@ -17,6 +18,9 @@ NODE_CLASS_MAPPINGS = {
     "🛰️ QRCodes (Simple B&W)": QRCodesSimpleBW,
     "🎭 QRCodeReader": QRCodeReader,
     "🎭 ShowData": ShowData,
+    "🚢 CreateCornerFrame": CreateCornerFrame,
+    "🚢 CreateSolidFrame": CreateSolidFrame,
+    "🚢 CreateTextFrame": CreateTextFrame,
     }
     
 WEB_DIRECTORY = "./js"
