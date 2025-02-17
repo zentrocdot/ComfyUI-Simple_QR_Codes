@@ -32,6 +32,9 @@ make use of both of them. In terms of regulations, I have to say that
 I have not checked that both Python modules comply with the published
 QR code standards.</p>
 
+<p align="justify">All QR codes used in this documentations are created
+using my new node.</p>
+
 # QR Codes Explanation
 
 ## Fully Coloured
