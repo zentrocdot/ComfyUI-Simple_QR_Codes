@@ -142,13 +142,12 @@ class QRCodesStyle:
     OUTPUT_NODE = True
 
     def create_qr_code(self, text, bg_color, fg_color, error_correct, version,
-                       radius, box_size, border, mask_color, style,
-                       color, color_1st, color_2nd, color_3rd):
+                       radius, box_size, border, style, color, color_1st,
+                       color_2nd, color_3rd):
         '''Create the QR Code image.'''
         # Create the color tuples.
         fg_color = string2tuple(fg_color)
         bg_color = string2tuple(bg_color)
-        mask_color = string2tuple(mask_color)
         color_1st = string2tuple(color_1st)
         color_2nd = string2tuple(color_2nd)
         color_3rd = string2tuple(color_3rd)
@@ -210,7 +209,7 @@ class QRCodesStyle:
         draw = ImageDraw.Draw(mask)
         draw.rounded_rectangle((0, 0, QRimg.size[0], QRimg.size[1]), radius, fill=255)
         # Apply the rounded mask to the image
-        QRimg = Image.composite(QRimg, Image.new("RGB", QRimg.size, mask_color), mask)
+        QRimg = Image.composite(QRimg, Image.new("RGB", QRimg.size, (255,255,255)), mask)
         # Create return image.
         qrcode_image = QRimg
         # Return the qr code image.
@@ -224,7 +223,7 @@ class QRCodesStyle:
         # Create the QR code from the text.
         qrcode_image = self.create_qr_code(text, bg_color, fg_color, error_correct,
                                            version, radius, box_size, border,
-                                           mask_color, style, color, color_1st,
+                                           style, color, color_1st,
                                            color_2nd, color_3rd)
         # Resize the image.
         qrcode_image = qrcode_image.resize((width, height), resample=3)
